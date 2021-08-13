@@ -1,0 +1,38 @@
+.box{
+  margin:30px; 
+  text-align: center;
+ 
+
+}
+.inputfields{
+    margin:30px; 
+}
+.cards {
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    width:40%;
+    
+}
+
+
+
+ 
+.cards__item {
+    /* There will be 4 cards per row */
+    flex-basis: 25%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    padding: 0px 8px;
+    background-color : rgba(170, 199, 238, 0.3);
+    border-radius: 0.25rem; 
+    height: 50px;
+    width:20px;
+    text-align:  center;
+    
+    
+}
